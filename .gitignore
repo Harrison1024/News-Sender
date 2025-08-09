@@ -1,0 +1,7 @@
+# Archivos de este tipo
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Archivos de datos sensibles
+app_config.py
