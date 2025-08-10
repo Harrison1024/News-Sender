@@ -18,7 +18,7 @@ Este script en Python obtiene las noticias más relevantes de las últimas 24 ho
 - Librerías:
   ```bash
   pip install requests
-````
+  ```
 
 ---
 
