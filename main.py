@@ -29,6 +29,8 @@ response.raise_for_status()
 datos = response.json()
 articulos = datos["articles"][0:numero_noticias] # Agrupacion de los articulos seleccionados
 
+mensaje = ""
+
 # Creaciion del cuerpo del mensaje
 for articulo in articulos:
     mensaje+= f"\n{articulo["source"]["name"]}"
